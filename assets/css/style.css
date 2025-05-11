@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Battambang", system-ui;
+}
+.container {
+  width: 1140px;
+  margin: auto;
+}
+header {
+  width: 100%;
+  height: 750px;
+  background-image: url("/assets/images/book-3998252_1280.jpg");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.header-top .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.group-contact-top {
+  margin: 0 -20px;
+}
+.group-contact-top a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 0px 20px;
+}
+.group-language-top a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+.header-top {
+  box-shadow: 0 0 1px 1px white;
+}
+.navbar {
+  padding: 5px 0;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-brand {
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 0 15px;
+}
+.navbar-nav {
+  list-style: none;
+  display: flex;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 15px 30px;
+  font-size: 17px;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 20px;
+  text-decoration-color: white;
+}
+.group-icons-contact {
+  margin: 0 -10px;
+}
+.group-icons-contact a {
+  display: inline;
+  font-size: 16px;
+  color: white;
+  padding: 0 10px;
+}
+.dropdown {
+  display: none;
+}
+.dropdown-menu {
+  list-style: none;
+  position: absolute;
+  top: 105px;
+}
+.dropdown-item {
+  padding: 5px 30px;
+  text-decoration: none;
+  color: rgb(18, 184, 184);
+  display: block;
+  font-size: 16px;
+  background-color: white;
+}
+.dropdown-item:hover {
+  background-color: rgb(18, 184, 184);
+  color: white;
+}
+.nav-item:hover .dropdown {
+  display: block;
+}
+.main-title {
+  text-align: center;
+  color: white;
+  margin-top: 70px;
+}
+.title {
+  font-weight: 600;
+  font-size: 70px;
+  text-align: center;
+}
+.text {
+  font-size: 18px;
+}
+.bar-search {
+  margin-top: 20px;
+  width: 50%;
+  padding: 8px 0px;
+  border-radius: 50px;
+  border: none;
+}
+
+::placeholder {
+  text-align: center;
+}
